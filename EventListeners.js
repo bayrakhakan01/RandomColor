@@ -1,5 +1,5 @@
 const btn = document.querySelector('button');
-const para = document.querySelector('p');
+const html = document.querySelector('html');
 function random(num) {
     return Math.floor(Math.random()*(num+1));
 }
@@ -34,4 +34,5 @@ function bgChange2(evt) {
     console.log(evt);
 }
 
+//html.addEventListener('mouseover',bgChange2);
 btn.addEventListener('click',bgChange2);
